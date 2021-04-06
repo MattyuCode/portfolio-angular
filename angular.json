@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "portafolio-leifer"
+  "defaultProject": "portafolio-leifer",
+  "cli": {
+    "analytics": "401008a8-6b7a-49b5-9582-8ec13866a1a9"
+  }
 }

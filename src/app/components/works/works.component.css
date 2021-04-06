@@ -1,0 +1,58 @@
+ /* @import '~perfect-scrollbar/css/perfect-scrollbar.css'; */
+
+/* .row {
+  height: calc(90vh - 4rem);
+  position: relative;
+  overflow-y: auto;
+} */
+
+.col {
+  height: 15rem;
+  padding: .25rem;
+  display: block;
+}
+
+.card {
+  background: #3761ecb0;
+  color: #fff;
+  height: 100%;
+}
+
+.card .right {
+  height: 100%;
+  width: 20%;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  /* background: crimson; */
+  padding: 10px;
+}
+
+.card .right .icon-1 {
+  padding-top: 40px;
+}
+
+.card .right .icon-1 a{
+  color: aliceblue;
+
+}
+
+.card .right .icon-2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.card .left {
+  padding: 12px;
+  /* background: rebeccapurple; */
+  width: 80%;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .left .title {
+  font-size: 1.2rem;
+}

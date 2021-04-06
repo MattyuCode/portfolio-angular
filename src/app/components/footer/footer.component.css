@@ -1,0 +1,22 @@
+footer {
+  background: linear-gradient(to right, #225e81, #292e49, #225e81);
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 0px;
+  padding-bottom: 0.1px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer a {
+  color: crimson;
+  font-size: 20px;
+}
+
+footer a:hover {
+  color: rgb(255, 0, 108);
+}

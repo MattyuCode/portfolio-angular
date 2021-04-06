@@ -1,0 +1,33 @@
+<div class="wrapper">
+  <!-- Texto Animado -->
+  <div class="pre-title animated flipInX">Hola, Mi nombres es</div>
+  <h1 #asTitle class="title animated fadeInUp"></h1>
+  <h2 class="sub-title animated fadeInUp">Soy desarrollador Web</h2>
+  <p class="text-justify text_content animated fadeInUp">Experto en desarrollador tecnológico tanto en Back End
+    como en Front End. 2 años de experiencia trabajando para numerosas empresas actualmente liderando un equipo.
+  </p>
+
+  <hr class="animated fadeInRight" style="height: 1px; background: rgb(180, 180, 180);">
+
+  <!-- El de los videso -->
+  <div class="video-wrapper animated fadeInLeft">
+    <iframe src="https://www.youtube.com/embed/cH0ZtvGYK18" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+
+
+  <!-- Tipo Footer -->
+  <div class="social-wrapper">
+    <div class="social d-flex justify-content-center">
+      <div class="block" *ngFor="let iconName of social">
+        <a [href]="iconName.link" target="_blank">
+          <div class="icon-in">
+            <span [innerHTML]="iconName.icon"></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>

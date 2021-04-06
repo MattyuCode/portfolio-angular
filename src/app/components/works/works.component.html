@@ -1,0 +1,38 @@
+<!-- [perfectScrollbar]="config" -->
+<div class="row row-cols-1 row-cols-md-3 g-4 ">
+  <div class="col-lg-4 col-md-6 col-12 mt-2 animate__animated animate__fadeInUp animation-{{i*2}}"
+    *ngFor="let item of repos;let i = index">
+    <div class="card">
+      <div class="d-flex">
+        <div class=" left d-flex">
+          <div class="top">
+            <div class="date">{{item.created_at | date}}</div>
+            <div class="description">{{item.description}}</div>
+          </div>
+          <div class="bottom">
+            <div class="title">{{item.name}}</div>
+          </div>
+        </div>
+
+        <div class=" right">
+          <div class="icon-1">
+            <a [href]="item.html_url" target="_blank">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="icon-2">
+            <span>{{item.stargazers_count}} </span>
+             <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--
+  // este portafolio fue inspirtado por Liefer Mendez
+  https://www.youtube.com/watch?v=-xXfelCzAi4&t=6159s
+ -->
